@@ -1,0 +1,10 @@
+package com.vivek.call;
+import com.vivek.print.VivekPrint;
+public class PrintCall {
+public static void main(String arg[]){
+	
+	PrintCall pc=new PrintCall();
+	VivekPrint vp;
+	System.out.println("Print call java call to other jar method"+vp.vivekMethod());
+}
+}
